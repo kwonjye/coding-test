@@ -21,10 +21,10 @@ b aa baa -> bb aa -> aa ->
 ---
 
 #### 입출력의 예
-| s | result |
-|:---|:---|
-| baabaa | 1 |
-| cdcd   | 0 |
+|s|result|
+|---|---|
+|baabaa|1|
+|cdcd|0|
 
 #### 입출력 예 설명
 입출력 예 #1
