@@ -1,4 +1,7 @@
+package LEVEL2.짝지어제거하기;
+
 import java.util.*;
+
 class Solution
 {
     public int solution(String s)
