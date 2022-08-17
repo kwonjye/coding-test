@@ -6,9 +6,9 @@ public class Q11729 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         int N = sc.nextInt();
-
+        sc.close();
+        
         sb.append((int)(Math.pow(2, N) - 1)).append('\n');
 
         Hanoi(N, 1, 2, 3);
