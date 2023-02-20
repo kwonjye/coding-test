@@ -1,9 +1,15 @@
-package LEVEL0.세균증식;
+package LEVEL0.숨어있는숫자의덧셈2;
 
 class Solution {
-    public int solution(int n, int t) {
+    public int solution(String my_string) {
         int answer = 0;
-        answer = n * (int)Math.pow(2, t);
+        String[] str = my_string.split("[^0-9]");
+        
+        for(int i = 0; i < str.length; i++){
+            if(str[i].length() > 0) {
+                answer += Integer.parseInt(str[i]);
+            }
+        }
         return answer;
     }
 }
